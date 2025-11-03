@@ -42,4 +42,3 @@ A beautiful Flutter application with AI-powered face detection capabilities. Cap
 
 ---
 
-Built with ❤️ using Flutter
