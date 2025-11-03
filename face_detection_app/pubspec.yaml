@@ -1,0 +1,26 @@
+name: face_detection_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mlkit_image_labeling: ^0.14.1 # image content recognition
+  google_mlkit_face_detection: ^0.13.1 # detect faces 
+  camera: ^0.11.1 # access device camera
+  go_router: ^16.3.0 # navigation routing
+  image: ^4.5.4 # image processing utilities(blur detection)
+  permission_handler: ^12.0.0+1 # manage runtime app permissions
+  path_provider: ^2.1.5 # provides file system paths
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
